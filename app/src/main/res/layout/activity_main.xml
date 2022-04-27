@@ -194,16 +194,18 @@
         android:layout_weight="1"
         android:onClick="getNumbers"
         android:layout_marginRight="1pt"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40pt"
-        android:text="."
-        android:layout_weight="1"
-        android:id="@+id/btdot"
-        android:textSize="38sp"
-        android:onClick="getNumbers"
-        android:layout_marginRight="1pt"/>
-    <Button
+
+        <Button
+            android:id="@+id/btdot"
+            android:layout_width="wrap_content"
+            android:layout_height="40pt"
+            android:layout_marginRight="1pt"
+            android:layout_weight="1"
+            android:onClick="getNumbers"
+            android:text="."
+            android:textSize="38sp" />
+
+        <Button
         android:layout_width="wrap_content"
         android:layout_height="40pt"
         android:text="="
